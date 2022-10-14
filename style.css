@@ -1,0 +1,196 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(https://wallpaper.dog/large/5566087.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    opacity: 95%;
+    /* filter: brightness(60%); */
+    
+                
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color: rgb(240, 106, 16);
+    font-size: 34px;
+    padding: 5px;
+    font-family: Arial;
+    margin-left: -80%;
+    margin-top: 7%;
+    float: left;
+    /* background-color: aliceblue;
+    border-radius: 50px; */
+    filter: drop-shadow(1px 1px 0px white);
+     
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul li a:hover {
+    color: rgb(240, 106, 16) !important ;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+     list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+
+}
+ul li a{
+    text-decoration: none;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+
+.search{
+    width: 330px;
+    float: right;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    font-size:15px;
+    border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(255, 250, 250); 
+    position: relative;
+    padding: 20px;
+    margin-right: 20%;
+
+    
+}
+
+.content .para{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    width: 600px;
+    font-family: arial;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    color: rgb(241, 130, 3);
+    font-weight: bold;
+    text-shadow: 3px 3px rgb(10, 10, 10);
+    margin-left: -2%;
+    margin-top: 20px;
+}
+
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    width: 400px;
+    height: 150px;
+    padding-left: 20px;
+    
+    padding: 2%;
+    margin-top: -8%;
+    letter-spacing: 2px;
+    /* text-shadow: 2px 2px rgb(139, 69, 4);     */
+    z-index: 40px;
+    
+} 
+
+.cn{
+    background-color: rgb(253, 253, 253);
+    border-radius: 6px 6px;
+    box-shadow: 2px 2px 2px 2px black;
+    padding: 10px;
+    width: 60px;
+    position: absolute;
+    margin-left: 23px;
+}
+ .cn a{
+    
+    color: rgb(7, 7, 7);
+    font-style: bold;
+   
+} 
+.cn :hover{
+    
+    color: rgb(248, 143, 23);
+
+}
+.content img{
+    filter: drop-shadow(1px 1px 8px  rgb(250, 249, 248));
+    width: 300px;
+    padding: 0px;
+    margin-top: -2%;
+    margin-left: 4%;
+}
+
+h1 #wel{
+
+    color: rgb(255, 102, 0);
+    text-shadow: 1.5px 1.5px 2px white;
+}
+.empty .sign{
+    width: 10%;
+    height: 10%;
+    background-color: white ;
+}
+
+
